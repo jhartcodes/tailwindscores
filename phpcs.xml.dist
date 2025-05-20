@@ -86,4 +86,18 @@
 		</properties>
 	</rule>
 
+	<arg name="tab-width" value="4"/>
+	<arg name="encoding" value="utf-8"/>
+	<config name="phpcbf" value="1"/>
+	<rule ref="Generic.WhiteSpace.DisallowTabIndent" severity="0"/>
+	<rule ref="Squiz.WhiteSpace.SemicolonSpacing">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Squiz.WhiteSpace.ScopeClosingBrace.BraceOnSameLine">
+		<severity>0</severity>
+	</rule>
+
 </ruleset>

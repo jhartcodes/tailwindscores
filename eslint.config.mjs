@@ -15,6 +15,9 @@ export default [
 		rules: {
 			...js.configs.recommended.rules,
 			...prettier.rules,
+			semi: ['error', 'never'],
+			quotes: ['error', 'single'],
+			'brace-style': ['error', '1tbs'],
 		},
 	},
 	{
