@@ -20,6 +20,7 @@ Using WordPress Multisite? Don’t forget that your theme must first be enabled 
 6. Run `npm test` anytime to verify that ESLint, Prettier and PHPCS pass
 7. Add [Tailwind utility classes](https://tailwindcss.com/docs/utility-first) with abandon
 
+
 ### Deployment
 
 7. Run `npm run bundle`
