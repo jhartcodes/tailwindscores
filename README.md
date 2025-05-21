@@ -17,7 +17,9 @@ Using WordPress Multisite? Don’t forget that your theme must first be enabled 
 
 4. Run `npm run watch` to compile assets with sourcemaps and lint PHP as you work
 5. A Browsersync server will reload the browser when PHP, JS or CSS files change. Edit `package.json` to adjust the proxy URL if needed.
-6. Add [Tailwind utility classes](https://tailwindcss.com/docs/utility-first) with abandon
+6. Run `npm test` anytime to verify that ESLint, Prettier and PHPCS pass
+7. Add [Tailwind utility classes](https://tailwindcss.com/docs/utility-first) with abandon
+
 
 ### Deployment
 

@@ -47,6 +47,8 @@
 		"production": "run-p \"production:**\"",
 		"prod": "npm run production",
 		"zip": "node node_scripts/zip.js tailwindscores",
-		"bundle": "run-s production zip"
-	}
+                "bundle": "run-s production zip",
+                "test:formatters": "node node_scripts/test-formatters.js",
+                "test": "npm run test:formatters"
+        }
 }
