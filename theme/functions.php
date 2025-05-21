@@ -109,8 +109,7 @@ if ( ! function_exists( 'tailwindscores_setup' ) ) :
 		add_theme_support( 'editor-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style( 'style-editor.css' );
-		add_editor_style( 'style-editor-extra.css' );
+               add_editor_style( 'style-editor.css' );
 
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );

@@ -15,13 +15,14 @@ Using WordPress Multisite? Don’t forget that your theme must first be enabled 
 
 ### Development
 
-4. Run `npm run watch`
-5. Add [Tailwind utility classes](https://tailwindcss.com/docs/utility-first) with abandon
+4. Run `npm run watch` to compile assets with sourcemaps and lint PHP as you work
+5. A Browsersync server will reload the browser when PHP, JS or CSS files change. Edit `package.json` to adjust the proxy URL if needed.
+6. Add [Tailwind utility classes](https://tailwindcss.com/docs/utility-first) with abandon
 
 ### Deployment
 
-6. Run `npm run bundle`
-7. Upload the resulting zip file to your site using the “Upload Theme” button on the “Add Themes” administration page
+7. Run `npm run bundle`
+8. Upload the resulting zip file to your site using the “Upload Theme” button on the “Add Themes” administration page
 
 Or [deploy with the tool of your choice](https://underscoretw.com/docs/deployment/#h-other-deployment-options)!
 
